@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mis materias favoritas</title>
+    </head>
+    
+    <style media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+            box-sizing: border-box
+        }
+        
+        body{
+         background:url(img/Background.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+        ul{
+            margin:75px auto;
+            max-width: 90vw;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            -webkit-backdrop-filter:blur(10px);
+            backdrop-filter:blur(10px);
+            background: #fff4;
+            border-radius: 5px
+        }
+        h1{
+            color: white;
+            background-color: #fff5;
+            padding: 20px;
+            text-align: center;
+        }
+        li{
+            padding:10px;
+        }
+        #uno{
+            color: aqua;
+            font-size: 25px
+        }
+        #dos{
+            color:blueviolet;
+            font-size: 25px
+        }
+        #tres{
+            color: white;
+            font-size: 25px
+        }
+        #cuatro{
+            color: chartreuse;
+            font-size: 25px
+        }
+        #cinco{
+            color: crimson;
+            font-size: 25px
+        }
+    </style>
+    <body>
+       <h1>Mis Materias Favoritas</h1>
+        <ul style="list-style-type:upper-roman ">
+            <li id="uno">Programaci&oacute;n Web</li>
+            <li id="dos">Lenguajes de Interfaz</li>
+            <li id="tres">Administraci&oacute;n de Bases de Datos</li>
+            <li id="cuatro">Lenguajes y Automatas I</li>
+            <li id="cinco">Ingenier&iacute;a de Software</li>
+        </ul>
+    </body>
+</html>
